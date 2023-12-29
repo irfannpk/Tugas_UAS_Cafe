@@ -2,6 +2,9 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionic from 'react-native-vector-icons/Ionicons';
 import { NavigationContainer } from '@react-navigation/native';
+import Home from './src/component/Home';
+import Kopi from './src/component/Kopi';
+import Aku from './src/component/Aku';
 
 const App = () => {
   const Tab = createBottomTabNavigator();
